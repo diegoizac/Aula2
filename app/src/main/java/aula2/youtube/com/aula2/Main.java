@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+
 public class Main extends Activity{
 
         protected void onCreate(Bundle save){
@@ -14,7 +15,6 @@ public class Main extends Activity{
 
         public static void cliquei(View v){
 
-            Log.i("ola", "Eu passei por aqui");
-
+            Log.i("mensagem" , "O Diêgão clicou no botão");
         }
 }
